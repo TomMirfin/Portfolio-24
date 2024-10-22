@@ -1,5 +1,3 @@
-import React from "react";
-
 const CV = () => {
   return (
     <div className="p-6 max-w-3xl  bg-[rgb(13,18,26)] rounded-lg text-left">

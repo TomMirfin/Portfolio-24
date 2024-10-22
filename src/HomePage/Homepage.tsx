@@ -5,7 +5,6 @@ import HomePageGraphics from "./HomePageGraphics";
 import HomePageText from "./HomePageText";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import ContactMe from "./ContactMe";
 
 export default function Homepage() {
   const [neonFlash, setNeonFlash] = useState(false);
