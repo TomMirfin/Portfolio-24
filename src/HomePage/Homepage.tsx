@@ -42,7 +42,7 @@ export default function Homepage() {
 
   return (
     <>
-      <div className="absolute  mt-20">
+      <div className="absolute  lg:mt-20 qs:mt-2">
         <p
           className="text-left text-pink-700 text-2xl"
           style={{
