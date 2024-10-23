@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function TopBar() {
   return (
-    <nav className="bg-gray-800 qs:bg-transparent p-4 mb-10">
+    <nav className="bg-gray-800 qs:bg-transparent p-4 mb-10 qs:mb-0 ">
       <div className="container mx-auto flex justify-between items-center qs:-ml-5">
         <div className="text-white text-lg font-bold qs:text-transparent">
           TM
