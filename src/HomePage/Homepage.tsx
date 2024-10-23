@@ -4,7 +4,7 @@ import HomePageGraphics from "./HomePageGraphics";
 import HomePageText from "./HomePageText";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import squareDesgin from "../assets/imgs/Design.png";
+
 export default function Homepage() {
   // const [neonFlash, setNeonFlash] = useState(false);
   // const [secondNeonFlash, setSecondNeonFlash] = useState(false);
