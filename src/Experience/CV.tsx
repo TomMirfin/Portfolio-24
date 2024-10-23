@@ -1,8 +1,8 @@
 const CV = () => {
   return (
     <div className="p-6 max-w-3xl  bg-[rgb(13,18,26)] rounded-lg text-left">
-      <h1 className="text-3xl font-bold mb-2 text-cyan-600">Tom Mirfin</h1>
-      <h2 className="text-xl font-semibold mb-4 text-cyan-600">
+      <h1 className="text-3xl font-bold mb-2 text-cyan-400">Tom Mirfin</h1>
+      <h2 className="text-xl font-semibold mb-4 text-cyan-400">
         Junior Software Developer
       </h2>
       <p className="mb-2 text-white">Tadcaster, UK</p>
@@ -29,7 +29,7 @@ const CV = () => {
         </a>
       </p>
 
-      <h3 className="text-2xl font-semibold mt-6 mb-2 text-cyan-600">
+      <h3 className="text-2xl font-semibold mt-6 mb-2 text-cyan-400">
         Profile
       </h3>
       <p className="mb-4 text-white">
@@ -48,13 +48,13 @@ const CV = () => {
         innovation within a dynamic development team.
       </p>
 
-      <h3 className="text-2xl font-semibold mt-6 mb-2 text-cyan-600">
+      <h3 className="text-2xl font-semibold mt-6 mb-2 text-cyan-400">
         Education
       </h3>
       <p className="font-semibold text-white">Northumbria University</p>
       <p className="text-white">BSc(Hons) Computer Aided Product Design</p>
 
-      <h3 className="text-2xl font-semibold mt-6 mb-2 text-cyan-600">
+      <h3 className="text-2xl font-semibold mt-6 mb-2 text-cyan-400">
         Technical Skills
       </h3>
       <ul className="list-disc ml-6 mb-4">
@@ -82,10 +82,10 @@ const CV = () => {
         </li>
       </ul>
 
-      <h3 className="text-2xl font-semibold mt-6 mb-2 text-cyan-600">
+      <h3 className="text-2xl font-semibold mt-6 mb-2 text-cyan-400">
         Work Experience
       </h3>
-      <h4 className="font-semibold text-cyan-600">
+      <h4 className="font-semibold text-cyan-400">
         Zeno Health Group (January 2024 – Present)
       </h4>
       <ul className="list-disc ml-6 mb-4">
@@ -127,7 +127,7 @@ const CV = () => {
         <li className="text-white">Creating and working with REST APIs.</li>
       </ul>
 
-      <h4 className="font-semibold text-cyan-600">
+      <h4 className="font-semibold text-cyan-400">
         Junior/Trainee Software Developer (North Coders) (October 2023 – January
         2024)
       </h4>
@@ -146,7 +146,7 @@ const CV = () => {
         </li>
       </ul>
 
-      <h4 className="font-semibold text-cyan-600">
+      <h4 className="font-semibold text-cyan-400">
         Customer & Trading Manager (Sainsbury’s) (June 2023 – October 2023)
       </h4>
       <ul className="list-disc ml-6 mb-4">
@@ -164,7 +164,7 @@ const CV = () => {
         </li>
       </ul>
 
-      <h4 className="font-semibold text-cyan-600">
+      <h4 className="font-semibold text-cyan-400">
         Self-Study Career Break (February 2023 – September 2023)
       </h4>
       <ul className="list-disc ml-6 mb-4">
@@ -175,7 +175,7 @@ const CV = () => {
         </li>
       </ul>
 
-      <h4 className="font-semibold text-cyan-600">
+      <h4 className="font-semibold text-cyan-400">
         General Manager (Stonegate Pub Company) (January 2021 – February 2023)
       </h4>
       <ul className="list-disc ml-6 mb-4">
@@ -193,7 +193,7 @@ const CV = () => {
         </li>
       </ul>
 
-      <h4 className="font-semibold text-cyan-600">
+      <h4 className="font-semibold text-cyan-400">
         General Manager (Mitchell’s & Butlers) (March 2015 – January 2021)
       </h4>
       <ul className="list-disc ml-6 mb-4">

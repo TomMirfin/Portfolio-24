@@ -7,38 +7,35 @@ import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 export default function Homepage() {
-  const [neonFlash, setNeonFlash] = useState(false);
-  const [secondNeonFlash, setSecondNeonFlash] = useState(false);
+  // const [neonFlash, setNeonFlash] = useState(false);
+  // const [secondNeonFlash, setSecondNeonFlash] = useState(false);
 
-  // Counters to track the number of flashes
-  const [firstFlashCount, setFirstFlashCount] = useState(0);
-  const [secondFlashCount, setSecondFlashCount] = useState(0);
+  // const [firstFlashCount, setFirstFlashCount] = useState(0);
+  // const [secondFlashCount, setSecondFlashCount] = useState(0);
 
-  // First neon flashing effect (flash 3 times)
-  useEffect(() => {
-    if (firstFlashCount < 3) {
-      const flashRandom = Math.floor(Math.random() * 1000) + 500;
-      const interval = setTimeout(() => {
-        setNeonFlash((prev) => !prev);
-        setFirstFlashCount((prevCount) => prevCount + 1); // Increment flash count
-      }, flashRandom);
+  // useEffect(() => {
+  //   if (firstFlashCount < 3) {
+  //     const flashRandom = Math.floor(Math.random() * 1000) + 500;
+  //     const interval = setTimeout(() => {
+  //       setNeonFlash((prev) => !prev);
+  //       setFirstFlashCount((prevCount) => prevCount + 1);
+  //     }, flashRandom);
 
-      return () => clearTimeout(interval);
-    }
-  }, [neonFlash, firstFlashCount]); // Dependency on neonFlash and firstFlashCount
+  //     return () => clearTimeout(interval);
+  //   }
+  // }, [neonFlash, firstFlashCount]);
 
-  // Second neon flashing effect (flash 3 times)
-  useEffect(() => {
-    if (secondFlashCount < 3) {
-      const flashRandom = Math.floor(Math.random() * 2000) + 500;
-      const interval = setTimeout(() => {
-        setSecondNeonFlash((prev) => !prev);
-        setSecondFlashCount((prevCount) => prevCount + 1); // Increment flash count
-      }, flashRandom);
+  // useEffect(() => {
+  //   if (secondFlashCount < 3) {
+  //     const flashRandom = Math.floor(Math.random() * 2000) + 500;
+  //     const interval = setTimeout(() => {
+  //       setSecondNeonFlash((prev) => !prev);
+  //       setSecondFlashCount((prevCount) => prevCount + 1);
+  //     }, flashRandom);
 
-      return () => clearTimeout(interval);
-    }
-  }, [secondNeonFlash, secondFlashCount]); // Dependency on secondNeonFlash and secondFlashCount
+  //     return () => clearTimeout(interval);
+  //   }
+  // }, [secondNeonFlash, secondFlashCount]);
 
   return (
     <>
@@ -58,12 +55,7 @@ export default function Homepage() {
             fontFamily: "Bungee Outline",
           }}
         >
-          T<span className={neonFlash ? "text-white" : "text-pink-400"}>o</span>
-          m Mir
-          <span className={secondNeonFlash ? "text-white" : "text-pink-400"}>
-            f
-          </span>
-          in
+          Tom Mirfin
         </h1>
 
         <div className="flex-row flex mt-4 gap-x-5">

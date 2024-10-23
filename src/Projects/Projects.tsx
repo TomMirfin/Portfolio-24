@@ -19,10 +19,7 @@ export default function Projects() {
       className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 p-5"
     >
       {projects.map((project) => (
-        <div
-          key={project.name}
-          className="bg-slate-400 shadow-lg rounded-lg overflow-hidden transform transition duration-300 hover:scale-105"
-        >
+        <div key={project.name} className="box">
           <img
             src={project.img}
             alt={`${project.name} image`}
@@ -30,11 +27,11 @@ export default function Projects() {
           />
 
           <div className="p-6">
-            <h2 className="text-xl font-bold mb-2 text-gray-800">
+            <h2 className="text-xl font-bold mb-2 text-gray-200">
               {project.name}
             </h2>
 
-            <p className="text-gray-600 mb-4">{project.description}</p>
+            <p className="text-gray-400 mb-4">{project.description}</p>
 
             <div className="flex flex-wrap gap-2">
               {project.techStack.map((tech) => (
